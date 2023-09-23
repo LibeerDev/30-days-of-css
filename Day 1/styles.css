@@ -1,0 +1,81 @@
+body {
+     background-color: black;
+     height: 90vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20vw;
+}
+
+ul li {
+    transform: rotate(-10deg) skew(10deg);
+}
+
+span[class^="fa"] {
+    color: aliceblue !important;
+}
+
+ul li span {
+    position: absolute;
+    top: 10%;
+    width: 50px;
+    height: 50px;
+    font-size: 30px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    transition: 1s  ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li:nth-child(1) span
+{
+    background: #3b5999;
+}
+ul li:nth-child(2) span
+{
+    background: #55acee;
+}
+ul li:nth-child(3) span
+{
+    background: #dd4b39;
+}
+ul li:nth-child(4) span
+{
+    background: #0077b5;
+}
+ul li:nth-child(5) span
+{
+    background: #e4405f;
+}
+
+ul li:hover span:nth-child(1) {
+    transform: translate(10px, 10px) rotate(5deg);
+    opacity: 0.2;
+}
+ul li:hover span:nth-child(2) {
+    transform: translate(20px, 20px) rotate(10deg);
+    opacity: 0.4;
+}
+ul li:hover span:nth-child(3) {
+    transform: translate(30px, 30px) rotate(15deg);
+    opacity: 0.6;
+}
+ul li:hover span:nth-child(4) {
+    transform: translate(40px, 40px) rotate(20deg);
+    opacity: 0.8;
+}
+ul li:hover span:nth-child(5) {
+    transform: translate(50px, 50px) rotate(25deg);
+}
