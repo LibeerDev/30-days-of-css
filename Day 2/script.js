@@ -10,5 +10,5 @@ allCircles.forEach((circle) => {
     circle.style.backgroundColor = `hsl(${circleHue}, ${circleSaturation}%, ${circleLightness}%)`;
     circleHue += 20;
     circle.style.animation = `rectangularMotion ${increment}s infinite linear`;
-    increment += 0.2;
+    increment += 0.05;
 });
