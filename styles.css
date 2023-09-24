@@ -2,7 +2,6 @@
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     background-color: black;
-    overflow: hidden;
 }
 
 * {
@@ -21,6 +20,7 @@ main {
 }
 
 a {
+    flex-grow: 1;
     text-decoration: none;
     font-size: 0.9rem;
     color: aliceblue;
@@ -29,8 +29,8 @@ a {
     align-items: center;
     border: 2px solid black;
     border-radius: 20%;
-    width: 100px;
-    height: 10vh;
+    width: 200px;
+    height: 200px;
     background-color: rgb(76, 0, 39);
     border: rgb(255, 255, 255) 1px solid;
 }
